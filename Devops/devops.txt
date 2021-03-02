@@ -13,12 +13,20 @@ Ideas para generar Seguridad Psicologica
 * Motivar la participacion y nuevas ideas
 * Concertar espacios para ajustar las dinamicas de trabajo
 
-3. Herramientas
-Streaming 
-Image Build
-Communication 
-Traceability
+3. 
 
+3.1 Herramientas
+
+ Streaming 
+ Image Build
+ Communication 
+ Traceability
+
+3.2. 
+Portal de proyectos empresariales estrategicos para mantener informada a toda la empresa y cualquier empleado que desee puede participar activamente
+Comite tecnico por cada departamento conformado por lideres operativos del departamento y un lider tecnologico especifico por departamento
+
+3.3 
 Toma de decisiones ponderada por comites
 en niveles de jerarquizacion horizontal
 
