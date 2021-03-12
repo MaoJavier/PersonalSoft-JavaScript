@@ -11,20 +11,19 @@
 
  let numeroSegmentos;
  resolver(1);
- console.log(numeroSegmentos);
  
  function resolver (segundos)
  {
+ nuemeroSegmentos=0;
  while (segundos>=0) {
   hora_actual = segundosToDate(segundos);
   console.log("hora_actual "+hora_actual);
   expresion = /[0-9]/g;
   hora = hora_actual.match(expresion);
   console.log("hora string "+hora);
-     /*
-     for(j = 0; j < 6; j++){
+     for(j = 0; j < hora.length; j++){
                  
-                 numero = hora_actual.toLocaleTimeString().charAt(j);
+                 numero = hora[j];
                  switch(numero){
                      case 0: case 6: case 9: numeroSegmentos += 6;break;
                      case 1: numeroSegmentos += 2;break;
@@ -33,11 +32,12 @@
                      case 7: numeroSegmentos += 3;break;
                      case 8: numeroSegmentos += 7;break;
                  }
-     }*/
+     }
  
  
   segundos--;
   }
+  console.log("Segmentos "+numeroSegmentos);
  }
  
  function segundosToDate(segundos) {
