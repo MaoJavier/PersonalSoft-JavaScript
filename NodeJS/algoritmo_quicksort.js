@@ -1,10 +1,5 @@
-let buffer = new ArrayBuffer(16);
+let arreglo = new Uint8ClampedArray([10,9,19,8,1,12,14,24,34,54,5,4,2,99,2,3,1,0]);
 
-let arreglo = new Int8Array(buffer);
-
-arreglo=[10,9,19,8,1,12,14,24,34,54,5,4,2,99,2,3,1,0];
-
- 
 quicksort(0,(arreglo.length-1));
 
 function quicksort(primero,ultimo){
