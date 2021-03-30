@@ -1,0 +1,3 @@
+Realizar una aplicacion.
+Que permita la creacion de un usuario generico que funcione para todos los aplicativos de la empresa
+Maneja una base de datos de permisos, roles y autorizaciones por aplicativo
